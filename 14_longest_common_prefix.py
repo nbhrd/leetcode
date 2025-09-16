@@ -11,6 +11,5 @@ def longest_common_prefix(strs):
             return ans[:-1]
     return ans
 
-# 動作確認
-print(longest_common_prefix(["flower", "flow", "flight"]))  # fl
-print(longest_common_prefix(["dog", "racecar", "car"]))     # ""
+print(longest_common_prefix(["flower", "flow", "flight"]))
+print(longest_common_prefix(["dog", "racecar", "car"]))
