@@ -1,0 +1,6 @@
+1. Two Sum xxxoxoo
+7. Reverse Integer xoxo
+9. Palindrome Number xx
+13. Roman to Integer x
+14. Longest Common Prefix x
+20. Valid Parentheses x
