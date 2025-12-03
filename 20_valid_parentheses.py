@@ -3,13 +3,17 @@ def isValid(s: str) -> bool:
     :type s: str
     :rtype: bool
     """
-    dict = {")" : "(", "]" : "[", "}" : "{"}
+    dic = {
+        ")" : "(",
+        "]" : "[",
+        "}" : "{",
+    }
     stack = []
 
-    for c in s:
-        if c in dict.values():
-            stack.append(c)
-        elif stack != [] and dict[c] == stack[-1]:
+    for ch in s:
+        if ch in dic.values():
+            stack.append(ch)
+        elif stack != [] and dic[ch] == stack[-1]:
             stack.pop()
         else:
             return False
@@ -17,3 +21,7 @@ def isValid(s: str) -> bool:
     return stack == []
 
 print(isValid("()"))
+print(isValid("()[]{}"))
+print(isValid("(]"))
+print(isValid("([])"))
+print(isValid("([)]"))
