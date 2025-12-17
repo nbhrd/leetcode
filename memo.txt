@@ -1,6 +1,7 @@
-1. Two Sum xxxoxoo
-7. Reverse Integer xoxo
-9. Palindrome Number xx
-13. Roman to Integer x
-14. Longest Common Prefix x
-20. Valid Parentheses x
+1. Two Sum xxxoxooo
+7. Reverse Integer xoxoo
+9. Palindrome Number xxxooo
+13. Roman to Integer xo
+14. Longest Common Prefix xxoo
+20. Valid Parentheses xxxxoo
+21. Merge Two Sorted Lists xxo
