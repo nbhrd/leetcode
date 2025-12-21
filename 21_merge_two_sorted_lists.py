@@ -38,7 +38,8 @@ class Solution:
 
         while list1 and list2:
             print(f"[step {step}]")
-            print(f"current: {current}")
+            print(f"current.val: {current.val}")
+            print_list(current.next, "current.next(before)")
             print_list(dummy_head.next, "dummy_head.next(before)")
             print_list(list1, "list1 (remaining)")
             print_list(list2, "list2 (remaining)")
